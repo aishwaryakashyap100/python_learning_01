@@ -1,5 +1,5 @@
 # Asking for marks
-marks = int(input("68.4"))
+marks = int(input("Enter your marks: "))
 
 # Decision making based on marks
 if marks >= 90:

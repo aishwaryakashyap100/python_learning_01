@@ -1,5 +1,5 @@
 # Asking for temperature
-temperature = int(input("28.8"))
+temperature = int(input("Enter today's temperature: "))
 
 # If it's hot (temperature greater than 30)
 if temperature > 30:
