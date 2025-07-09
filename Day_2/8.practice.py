@@ -1,15 +1,15 @@
-# 1 
+# 1:
+Name = input("Enter your Name:")
 Age = int(input("Enter your Age:"))
 
-if Age>=18:
-    print ("Eligible to vote")
-else:
-    print ("Not Eligible")
+print ("Hello", Name, "you are", Age, "years old.")
 
 # 2
-Marks = float(input("Enter your Marks:"))
+num_1 = int(input("Enter num_1:"))
+num_2 = int(input("Enter num_2:"))
 
-if Marks>=33:
-    print("Pass")
-else:
-    print("Fail")
+print (num_1+num_2)
+print (num_1-num_2)
+print (num_1*num_2)
+print (num_1/num_2)
+print (num_1%num_2)
